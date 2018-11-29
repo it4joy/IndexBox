@@ -1,0 +1,55 @@
+.html {
+  line-height: $line-height-base;
+  font-family: $font-family-base;
+  font-size: 10px;
+  font-weight: $font-weight-normal;
+  color: $body-color;
+}
+
+.html, .body {
+  min-height: 100vh;
+}
+
+.body {
+  font-size: $font-size-base;
+}
+
+.app-wrapper {
+  height: 100%;
+}
+
+.main-content {
+  flex: 1 0 auto;
+  .row {
+    min-width: 100%;
+  }
+}
+
+.std-negative-margin {
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+}
+
+.fullheight {
+  height: 100%;
+}
+
+// block with height equal to 84rem or 96rem
+
+.std-image-block {
+  padding: 20rem 20rem 10rem 20rem;
+  .h6 {
+    margin-bottom: 4.5rem;
+    font-family: 'Proxima Nova Bold', Tahoma, sans-serif;
+  }
+  .p {
+    font-family: 'Proxima Nova Light', Tahoma, sans-serif;
+    line-height: 3rem;
+  }
+}
+
+// widths in percents
+
+.w-70 {
+  width: 70%;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru" class="html">
+  <head>
+    <title>IndexBox AI Platform - test task</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" type="text/css" href="dist/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+  </head>
+
+  <body class="body">
+    <div id="app" class="app-wrapper d-flex flex-column">
+      <noscript>
+        <p>Please, enable support of JavaScript in your browser!</p>
+      </noscript>
+
+      <header class="header d-flex justify-content-between align-items-center">
+        <a href="/" class="logo-link">PBF Group</a>
+        <nav class="nav d-flex justify-content-end align-items-center">
+          <span class="menu-label">Menu</span>
+          <div class="menu-bar"></div>
+        </nav>
+      </header>
+
+      <main class="main-content d-flex">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="tabs-wrapper">
+                <ul class="list list_horizontal tabs-controls">
+                  <li class="tab"><a href="#users" class="tab-link active">Пользователи</a></li>
+                  <li class="tab"><a href="#devices" class="tab-link">Устройства</a></li>
+                </ul>
+                <div class="tabs-content-wrapper">
+                  <div id="users" class="tab-content active">
+                    <table class="table table-striped table-users">
+                      <thead>
+                        <tr>
+                          <th scope="col">Имя</th>
+                          <th scope="col">Фамилия</th>
+                          <th scope="col">Описание</th>
+                          <th scope="col">Доступные устройства</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <!-- rows will be filled dinamically -->
+                      </tbody>
+                    </table>
+                    <button type="button" class="btn btn-secondary btn-remove-selection">Снять выделение строк</button>
+                    <button type="button" class="btn btn-primary btn-save-selection">Сохранить выделенные строки</button>
+                    <button type="button" class="btn btn-secondary btn-delete">Стереть все</button>
+                  </div>
+                  <div id="devices" class="tab-content">
+                    <p class="text-secondary p-sm">Выберите пользователя (-ей) в соседней вкладке, чтобы здесь отобразились устройства, доступные ему (им)</p>
+                    <table class="table table-striped table-devices">
+                      <thead>
+                        <tr>
+                          <th scope="col">Наименование</th>
+                          <th scope="col">Серийный номер</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <!-- rows will be filled dinamically -->
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer d-flex">
+        <div class="footer-content-wrapper">
+          <div class="row">
+            <div class="col-12 col-md-4">
+              <a href="#" class="link link-to-top text-uppercase">Наверх <i class="fa fa-angle-up"></i></a>
+            </div>
+            <div class="col-12 col-md-8">
+              <div class="copyright">
+                <p class="p">2018 &copy; Test. All Right Reserved</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="dist/main.js"></script>
+  </body>
+</html>

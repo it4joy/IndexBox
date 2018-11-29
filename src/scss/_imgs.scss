@@ -1,0 +1,21 @@
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.std-figure {
+  text-align: center;
+}
+
+.std-figcaption {
+  margin-top: 6rem;
+  font-family: 'Proxima Nova Bold';
+  line-height: 3rem;
+  font-size: $font-size-sm;
+  letter-spacing: 0.07rem;
+  text-transform: uppercase;
+}
+
+.parallax-block-pic {
+  background-size: auto 100%;
+}

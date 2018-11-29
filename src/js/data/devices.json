@@ -1,0 +1,30 @@
+{
+  "001": {
+    "name": "Оперативная память Corsair",
+    "serialNumber": 10207102018154
+  },
+  "002": {
+    "name": "Процессор Intel Core i5-4690 Haswell",
+    "serialNumber": 15008112018102
+  },
+  "003": {
+    "name": "Процессор Intel Core i7-8700",
+    "serialNumber": 5001102018100
+  },
+  "004": {
+    "name": "Видеокарта ASUS PCI-E NV GTX1070",
+    "serialNumber": 1004102018199
+  },
+  "005": {
+    "name": "Видеокарта Palit GeForce GTX 1080 Super JetStream",
+    "serialNumber": 15701102018130
+  },
+  "006": {
+    "name": "SSD-диск WD Blue",
+    "serialNumber": 1002102015100
+  },
+  "007": {
+    "name": "SSD-диск Colorful CN600",
+    "serialNumber": 10705042018379
+  }
+}
