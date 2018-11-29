@@ -1,7 +1,9 @@
 // links
 
 .link {
-  
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 
