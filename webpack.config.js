@@ -1,7 +1,5 @@
 'use strict';
 
-// Webpack v.4
-
 const webpack = require('webpack');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const NODE_ENV = process.env.NODE_ENV || 'development';
@@ -57,7 +55,7 @@ module.exports = {
     ]
   },
   // need in 'resolve' & 'resolveLoader'?
-  
+
   plugins: [
     new MiniCssExtractPlugin({
       filename: NODE_ENV == 'development' ? '[name].css' : '[name].[hash].css',
