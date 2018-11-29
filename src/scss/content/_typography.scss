@@ -1,0 +1,28 @@
+// links
+
+.link {
+  
+}
+
+
+// `p` styles
+
+.p {
+  font-size: $font-size-base;
+}
+
+.p-sm {
+  font-size: $font-size-sm;
+}
+
+
+// Lists
+
+.list {
+  padding-left: 0;
+  list-style: none;
+}
+
+.list_horizontal {
+  @include display-flex-mixin(flex, row, flex-start, center, wrap);
+}
