@@ -1,5 +1,5 @@
 .footer {
-  flex: 0 0 5rem;
+  @include flex(0, 0, 7rem);
   padding: 1.5rem;
   background: $gray-100;
 }

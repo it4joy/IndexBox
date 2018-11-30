@@ -1,4 +1,5 @@
-@import "main/vars";
-@import "main/normalize";
-@import "main/mixins";
-@import "main/core";
+@import url("./flexboxgrid.css");
+@import "./vars";
+@import "./normalize";
+@import "./utilities";
+@import "./core";

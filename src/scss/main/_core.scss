@@ -15,14 +15,12 @@
 }
 
 .app-wrapper {
-  height: 100%;
+  @include display-flex-mixin(flex, column, space-between, stretch);
+  min-height: 100vh;
 }
 
 .main-content {
-  flex: 1 0 auto;
-  .row {
-    min-width: 100%;
-  }
+  @include flex(1, 0, auto);
 }
 
 .std-negative-margin {

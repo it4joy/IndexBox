@@ -3,7 +3,7 @@
   z-index: 10;
   padding: 0 12rem;
   width: 100%;
-  flex: 0 0 5rem;
+  @include flex(0, 0, 7rem);
   background: $white;
   border-bottom: 1px solid $gray-300;
   &.fixed-top {
@@ -21,8 +21,6 @@
   .nav {
     .menu-label {
       font-size: 1.2rem;
-      letter-spacing: 0.48rem;
-      text-transform: uppercase;
     }
     &:hover {
       cursor: pointer;
