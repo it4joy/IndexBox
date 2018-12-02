@@ -26,5 +26,5 @@
 }
 
 .list_horizontal {
-  @include display-flex-mixin(flex, row, flex-start, center, wrap);
+  @include display-flex-mixin(flex, row, space-between, center, wrap);
 }

@@ -1,0 +1,67 @@
+.nav {
+  position: relative;
+  @include display-flex-mixin(flex, row, space-between, center, wrap);
+  height: $nav-height;
+  .list {
+    margin-bottom: 0;
+  }
+}
+
+.top-nav {
+  .nav-toggler {
+    display: none;
+  }
+  .logo-block {
+    padding-left: 3.5rem;
+    background: url("../images/IndexBox-logo-sign.png") no-repeat 0% 0%;
+    line-height: 1;
+    font-family: 'Rubik Bold', Tahoma, sans-serif;
+    font-size: 2.4rem;
+    @include text-transform-mixin(uppercase);
+    color: $white;
+    .logo-font-piece {
+      color: $blue;
+    }
+  }
+  .nav-list-wrapper {
+    @include display-flex-mixin(flex, row, space-between, center, wrap);
+    width: 75%;
+    height: 100%;
+  }
+  .nav-item {
+    height: 100%;
+  }
+  .penultimate-item {
+    margin-left: 2rem;
+  }
+  .list {
+    @include display-flex-mixin(flex, row, space-between, center, wrap);
+    width: 100%;
+    height: 100%;
+  }
+  .nav-item.promo .link {
+    background-image: linear-gradient(270deg, #ff7f7c 0%, #5aa4ff 100%);
+    // to provide cross-browser ability use: http://www.colorzilla.com/gradient-editor/
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: $transparent;
+    font-family: $font-family-base-medium;
+    color: #ff7f7c;
+    transition: $transition-base;
+    &:hover {
+      background-image: linear-gradient(90deg, #ff7f7c 0%, #5aa4ff 100%);
+    }
+  }
+  .nav-item .link {
+    @include display-flex-mixin(flex, row, center, center, wrap);
+    padding: $nav-item-link-padding;
+    height: 100%;
+    font-family: $font-family-base-medium;
+    color: rgba($white, .4);
+    &:hover {
+      color: $white;
+    }
+  }
+  .nav-item.active .link {
+    color: $white;
+  }
+}

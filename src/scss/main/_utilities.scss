@@ -11,3 +11,9 @@
 @mixin flex($flex_grow, $flex_shrink, $flex-basis) {
   flex: $flex_grow $flex_shrink $flex-basis;
 }
+
+// Typography
+
+@mixin text-transform-mixin($text-transform-val) {
+  text-transform: $text-transform-val;
+}

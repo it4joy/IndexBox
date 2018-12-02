@@ -1,0 +1,35 @@
+.searching-items-wrapper {
+  height: 7.5rem;
+  background: $custom-light-gray;
+}
+
+.searching-items-form {
+  padding: 1.5rem 0;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: $input-padding-y $input-padding-x;
+  background: $input-bg;
+  border-width: $input-border-width;
+  border-color: $input-border-color;
+  border-radius: $input-border-radius;
+  line-height: $input-line-height;
+  color: $input-color;
+  &::placeholder {
+    color: $input-placeholder-color;
+  }
+  &.select {
+    color: $select-color;
+  }
+}
+
+input[attr="disabled"] {
+  background: $input-disabled-bg;
+  color: $input-disabled-color;
+}
+
+option[attr="disabled"] {
+  color: $input-disabled-color;
+}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru" class="html">
+<html lang="en" class="html">
   <head>
     <title>IndexBox AI Platform - test task</title>
     <meta charset="utf-8">
@@ -19,10 +19,38 @@
         <div class="container">
           <div class="row">
             <div class="col-xs">
-              <a href="/" class="logo-link"></a>
-              <nav class="nav">
-                <span class="menu-label">Menu</span>
-                <div class="menu-bar"></div>
+              <nav class="nav top-nav">
+                <a href="/" class="link logo">
+                  <div class="logo-block">
+                    <span class="logo-font">Index<span class="logo-font-piece">Box</span></span>
+                  </div>
+                </a>
+                <button type="button" class="nav-toggler" data-target="#topNavSlimScrContent">
+                  <span class="top-nav-toggler-icon"></span>
+                </button>
+
+                <div class="nav-collapse nav-list-wrapper" id="topNavSlimScrContent">
+                  <ul class="list">
+                    <li class="nav-item promo">
+                      <a href="#" class="link">Get more out of IndexBox - Go Pro</a>
+                    </li>
+                    <li class="nav-item active">
+                      <a href="#" class="link">Download data</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="link">Analyze data</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="link">Report writing</a>
+                    </li>
+                    <li class="nav-item penultimate-item">
+                      <a href="#" class="link">Sign up</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="link">Sign in</a>
+                    </li>
+                  </ul>
+                </div>
               </nav>
             </div>
           </div>
@@ -30,14 +58,26 @@
       </header>
 
       <main class="main-content">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              col-1
-            </div>
-            <div class="col-md-6">
-              col-2
-            </div>
+        <div class="searching-items-wrapper">
+          <div class="container">
+            <form class="searching-items-form">
+              <div class="row">
+                <div class="col-md-5 col-xs">
+                  <select class="form-control select">
+                    <option selected disabled>Product</option>
+                  </select>
+                </div>
+                <div class="col">
+                  2
+                </div>
+                <div class="col">
+                  3
+                </div>
+                <div class="col">
+                  4
+                </div>
+              </div>
+            </form>
           </div>
         </div>
       </main>
