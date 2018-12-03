@@ -1,24 +1,13 @@
 .footer {
   @include flex(0, 0, 7rem);
   padding: 1.5rem;
-  background: $gray-100;
 }
 
-.footer-content-wrapper {
-  width: 100%;
-}
-
-.footer-quick-links {
-  margin-bottom: 10rem;
-  .link {
-    &:hover {
-      
-    }
+.contacts-copyright {
+  color: $custom-mid-gray;
+  .p {
+    margin-bottom: 0;
   }
-}
-
-.copyright {
-  
 }
 
 .link-to-top {

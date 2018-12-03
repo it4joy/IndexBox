@@ -1,0 +1,43 @@
+.data-viewer {
+  &.no-data {
+    padding: 5rem 0;
+    text-align: center;
+  }
+}
+
+.output-options-sort-wrapper {
+  padding: 1.5rem 0;
+}
+
+.sort-label {
+  vertical-align: sub;
+  font-family: $font-family-base-medium;
+}
+
+.sort-btn-wrapper {
+  .btn-sort {
+    margin-right: 0.5rem;
+    padding: 0.6rem 1.5rem;
+    background: $transparent;
+    border-radius: 1.5rem;
+    font-family: $font-family-base-medium;
+    color: $bright-blue;
+    &.active {
+      background: rgba($bright-blue, .1);
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.units-wrapper {
+  padding: 1rem 0;
+  .btns-wrapper {
+    padding: 1.5rem 0;
+    .btn-find-data {
+      margin-right: 2.5rem;
+      border-radius: 2rem;
+    }
+  }
+}

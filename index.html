@@ -63,21 +63,107 @@
             <form class="searching-items-form">
               <div class="row">
                 <div class="col-md-5 col-xs">
-                  <select class="form-control select">
-                    <option selected disabled>Product</option>
-                  </select>
+                  <div class="custom-select-wrapper">
+                    <select class="form-control select custom-select">
+                      <option selected disabled>Product</option>
+                    </select>
+                  </div>
                 </div>
                 <div class="col">
-                  2
+                  <div class="custom-select-wrapper">
+                    <select class="form-control select custom-select">
+                      <option selected disabled>Country</option>
+                    </select>
+                  </div>
                 </div>
                 <div class="col">
-                  3
+                  <div class="custom-select-wrapper">
+                    <select class="form-control select custom-select">
+                      <option selected disabled>Country</option>
+                    </select>
+                  </div>
                 </div>
                 <div class="col">
-                  4
+                  <div class="custom-select-wrapper">
+                    <select class="form-control select custom-select">
+                      <option selected disabled>Period</option>
+                    </select>
+                  </div>
                 </div>
               </div>
             </form>
+          </div>
+        </div>
+        <div class="data-area">
+          <div class="output-options-wrapper">
+            <div class="container">
+              <div class="output-options-sort-wrapper">
+                <div class="row">
+                  <div class="col-md-3 col-xs">
+                    <span class="sort-label">Output Formating Options show by</span>
+                  </div>
+                  <div class="col">
+                    <div class="sort-btn-wrapper">
+                      <button type="button" class="btn-link btn-sort active">Factor</button>
+                      <button type="button" class="btn-link btn-sort">Country/Region</button>
+                      <button type="button" class="btn-link btn-sort">Code</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="units-wrapper">
+                <div class="row">
+                  <div class="col">
+                    <div class="custom-control-group">
+                      <div class="label">Volume</div>
+                      <div class="form-control control-switcher">
+                        <span class="data-item">Million units</span> <!-- plug -->
+                        <span class="carets">
+                          <i class="fa fa-caret-up"></i>
+                          <i class="fa fa-caret-down"></i>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    
+                  </div>
+                  <div class="col">
+                    
+                  </div>
+                  <div class="col">
+                    
+                  </div>
+                  <div class="col">
+                    
+                  </div>
+                  <div class="col">
+                    
+                  </div>
+                  <div class="col">
+                    
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <div class="btns-wrapper">
+                      <button type="button" class="btn btn-primary btn-find-data">Find data</button>
+                      <button type="button" class="btn-link btn-link-danger btn-clear">Clear</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="data-viewer no-data">
+            <div class="container">
+              <div class="row">
+                <div class="col">
+                  <h4 class="h4 corp-heading">Cats didn't find anything in the box yet, <br>so have a nice analyze meow :)</h4>
+                  <img src="src/images/no-data-found.png" alt="No data was found">
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </main>
@@ -86,11 +172,35 @@
         <div class="footer-content-wrapper">
           <div class="container">
             <div class="row">
-              <div class="col-md-6">
-                1
+              <div class="col-md-5">
+                <div class="contacts-copyright">
+                  <p class="p">Ask us 44-20-3239-3063 (UK); 1-415-799-8701 (US)</p>
+                  <p class="p">&copy; 2018 IndexBox, Inc.</p>
+                </div>
               </div>
-              <div class="col-md-6">
-                2
+              <div class="col-md-7">
+                <nav class="nav bottom-nav">
+                  <ul class="list">
+                    <li class="nav-item">
+                      <a href="#" class="link">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="link">Privacy Policy</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="link">Cookie</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="link">Terms Of Service</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="link">Pricing Plan</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="link">Metadata and Definitions</a>
+                    </li>
+                  </ul>
+                </nav>
               </div>
             </div>
           </div>

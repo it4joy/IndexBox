@@ -1,13 +1,16 @@
 .nav {
   position: relative;
   @include display-flex-mixin(flex, row, space-between, center, wrap);
-  height: $nav-height;
   .list {
+    @include display-flex-mixin(flex, row, space-between, center, wrap);
     margin-bottom: 0;
+    width: 100%;
+    height: 100%;
   }
 }
 
 .top-nav {
+  height: $nav-default-height;
   .nav-toggler {
     display: none;
   }
@@ -34,11 +37,6 @@
   .penultimate-item {
     margin-left: 2rem;
   }
-  .list {
-    @include display-flex-mixin(flex, row, space-between, center, wrap);
-    width: 100%;
-    height: 100%;
-  }
   .nav-item.promo .link {
     background-image: linear-gradient(270deg, #ff7f7c 0%, #5aa4ff 100%);
     // to provide cross-browser ability use: http://www.colorzilla.com/gradient-editor/
@@ -63,5 +61,15 @@
   }
   .nav-item.active .link {
     color: $white;
+  }
+}
+
+.bottom-nav {
+  color: $custom-mid-gray;
+  .link {
+    color: $custom-mid-gray;
+    &:hover {
+      color: $custom-dark-gray;
+    }
   }
 }
