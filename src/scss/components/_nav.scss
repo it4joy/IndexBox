@@ -6,6 +6,9 @@
     margin-bottom: 0;
     width: 100%;
     height: 100%;
+    .nav-item {
+      display: inline-block;
+    }
   }
 }
 
@@ -13,6 +16,14 @@
   height: $nav-default-height;
   .nav-toggler {
     display: none;
+    padding: 0;
+    width: 4rem;
+    height: 4rem;
+    background: $transparent;
+    color: $white;
+    &:hover {
+      color: darken($white, 5%);
+    }
   }
   .logo-block {
     padding-left: 3.5rem;
@@ -27,6 +38,7 @@
     }
   }
   .nav-list-wrapper {
+    position: relative;
     @include display-flex-mixin(flex, row, space-between, center, wrap);
     width: 75%;
     height: 100%;

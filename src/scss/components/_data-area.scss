@@ -1,3 +1,15 @@
+.searching-items-wrapper {
+  height: 7.5rem;
+  background: $custom-light-gray;
+}
+
+.searching-items-form {
+  padding: 1.5rem 0;
+  .form-control {
+    border: none;
+  }
+}
+
 .data-viewer {
   &.no-data {
     padding: 5rem 0;

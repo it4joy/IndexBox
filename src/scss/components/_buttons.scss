@@ -1,6 +1,7 @@
 .btn {
   display: inline-block;
   padding: $btn-padding-y $btn-padding-x;
+  background-color: $custom-mid-gray;
   border: $btn-border-width solid $btn-border-color;
   text-align: center;
   font-family: $font-family-base;
