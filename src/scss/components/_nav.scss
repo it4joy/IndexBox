@@ -50,15 +50,14 @@
     margin-left: 2rem;
   }
   .nav-item.promo .link {
-    background-image: linear-gradient(270deg, #ff7f7c 0%, #5aa4ff 100%);
     // to provide cross-browser ability use: http://www.colorzilla.com/gradient-editor/
     -webkit-background-clip: text;
     -webkit-text-fill-color: $transparent;
     font-family: $font-family-base-medium;
+    animation: promo-link 3s linear 0s infinite;
     color: #ff7f7c;
-    transition: $transition-base;
     &:hover {
-      background-image: linear-gradient(90deg, #ff7f7c 0%, #5aa4ff 100%);
+      opacity: .8;
     }
   }
   .nav-item .link {
@@ -83,5 +82,14 @@
     &:hover {
       color: $custom-dark-gray;
     }
+  }
+}
+
+@keyframes promo-link{
+  0% {
+    background-image: linear-gradient(270deg, #ff7f7c 0%, #5aa4ff 100%);
+  }
+  100% {
+    background-image: linear-gradient(90deg, #ff7f7c 0%, #5aa4ff 100%);
   }
 }
